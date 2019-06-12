@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-COPY ./install_2019.sh /opt/install.sh
+COPY ./install.sh /opt/install.sh
 COPY ./test.sh /opt/test.sh
 
 ENV USER test
