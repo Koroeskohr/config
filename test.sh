@@ -44,3 +44,6 @@ test_run "tig --version"
 # FIXME
 # test_existence z
 test_run "nvm --version"
+test_existence "postman"
+test_run "code --version"
+test_existence "dbeaver"
