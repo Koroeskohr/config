@@ -37,7 +37,9 @@ sudo apt-get install -y \
   postgresql-client \
   docker.io \
   shellcheck \
-  neovim
+  yamllint \
+  neovim \
+  vlc
   # pritunl-client-electron \
 
 printenv
@@ -83,7 +85,7 @@ curl -LsS https://go.microsoft.com/fwlink/\?LinkID\=760868 > vscode.deb
 sudo apt install ./vscode.deb
 rm vscode.deb
 
-sudo snap install postman
+# sudo snap install postman
 
 curl -L https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb > dbeaver.deb
 sudo apt install ./dbeaver.deb
