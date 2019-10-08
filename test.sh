@@ -40,7 +40,7 @@ test_run "yamllint --version"
 test_run "nvim --version"
 test_run "cargo --version"
 test_run "zsh --version"
-test_run "java --version"
+test_run "java -version"
 test_run "tig --version"
 # FIXME
 # test_existence z
