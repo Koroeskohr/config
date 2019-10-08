@@ -88,7 +88,7 @@ rm vscode.deb
 # sudo snap install postman
 
 curl -L https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb > dbeaver.deb
-sudo apt install ./dbeaver.deb
+sudo apt install ./dbeaver.deb -y
 rm ./dbeaver.deb
 
 sudo chsh -s /usr/bin/zsh "$USER"
